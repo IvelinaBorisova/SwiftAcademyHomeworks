@@ -1,0 +1,55 @@
+html {
+	background-color:lightgrey;
+}
+
+h3
+{	position:absolute;
+	color:white;
+	top:-10px;
+	left:240px;
+}
+#all {
+	background-color:grey;
+	position: relative;
+	height: 240px;	
+	font-family: "Courier New", Times, serif;
+
+
+}
+.fSection {
+	top:35px;
+	float: left;
+    background-color: white;
+	width:170px;
+	height:150px;
+	position: absolute;
+    left: 30px;
+    border: 1px solid darkgrey;
+	font-family: "Times New Roman", Times, serif;
+	color: #4CAF50;
+	letter-spacing: 2px;
+}
+.sSection
+{  top:35px;
+	background-color: white;
+	width:250px;
+	height:150px;
+	position: absolute;
+    left: 220px;
+	
+    border: 1px solid darkgrey;
+	font-family: "Times New Roman", Times, serif;
+	color: #4CAF50;
+	letter-spacing: 2px;
+	
+}
+img
+{
+	position:absolute;
+	left:490px;
+	top:35px;
+	height:150px;
+	width:150px;
+	border: 1px solid darkgrey;
+	
+}

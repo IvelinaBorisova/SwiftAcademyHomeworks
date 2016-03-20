@@ -1,0 +1,59 @@
+html{
+	background-color:lightgrey;
+}
+body
+{   margin: 100px 200px 30px 200px; 
+	background-color:white;
+	
+	
+}
+#img1 
+{	padding: 10px 200px 30px 180px;
+	height:340px;
+	width:600px;
+}
+.small
+{
+	height:15px;
+	width:15px;
+}
+input
+{
+	border:none;
+    color:lightgrey;
+}
+h1{
+position:relative;
+left:180px;
+top:-40px;
+}
+#date
+{   position:relative;
+	left: 180px;
+	top: -90px;
+	color:lightgreen;
+}
+#comment
+{ position:relative;
+	left:360px; 
+	top:-130px;
+	color:lightgrey;
+}
+.text1
+{ 	
+	position:relative;
+	left:180px;
+	top:-150px;
+	color:lightgrey;
+	width:600px;
+	
+}
+button
+{	background-color:lightgreen;
+	color:white;
+	border: 1px solid lightgrey;
+	padding: 10px 10px;
+	font-size:15px;
+	float:right;
+	border-radius:4px;
+}
