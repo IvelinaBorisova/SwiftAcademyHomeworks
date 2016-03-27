@@ -12,14 +12,20 @@ and open the template in the editor.
     <body>
         <?php
 function makeMatrix($numb){
-    for($i = 0; $i < $numb; $i++)
-    {for($j = $i + 1;$j<=$numb+$i; $j++ )
-        if ($j<10)
-        {
-            echo ' ';
-        }
-        echo $j.' ';
-   
+    $myArray = [[]];
+    for($i = 0; $i < $numb; $i++) { 
+    for($j = 0;$j< $numb; $j++ )
+    { $myArray[i][j] = $i+$j;
+    echo $myArray[i][j].' ';
+    if ($myArray[i][j]% $numb == 0){
+        echo '<br />';
+    }
+    
+    }
+    } 
+    $n = 4;
+    makeMatrix($n);
+
        
        
        
