@@ -23,20 +23,7 @@ function makeMatrix($numb){
     
     }
     } 
-    $n = 4;
-    makeMatrix($n);
-
-       
-       
-       
-       }
-    
-        
-    }
-  
-
-        
-        
+     
    makeMatrix(2); 
    echo '<br />';
    makeMatrix(4);
